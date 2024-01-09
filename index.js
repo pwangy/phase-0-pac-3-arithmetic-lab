@@ -14,12 +14,20 @@ function divide(a, b) {
   return a / b
 }
 
-function increment(a) {
-  return ++a
+// function increment(a) {
+//   return ++a
+// }
+
+// function decrement(a) {
+//   return --a
+// }
+
+function increment(n) {
+  return n += 1
 }
 
-function decrement(a) {
-  return --a
+function decrement(n) {
+  return n -= 1
 }
 
 function makeInt(a) {
